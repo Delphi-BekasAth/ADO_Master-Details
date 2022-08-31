@@ -1,0 +1,236 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 536
+  ClientWidth = 1131
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 8
+    Top = 24
+    Width = 51
+    Height = 13
+    Caption = 'Customers'
+  end
+  object Label2: TLabel
+    Left = 216
+    Top = 21
+    Width = 33
+    Height = 13
+    Caption = 'Orders'
+  end
+  object Label3: TLabel
+    Left = 8
+    Top = 309
+    Width = 33
+    Height = 13
+    Caption = 'Orders'
+  end
+  object Label4: TLabel
+    Left = 424
+    Top = 454
+    Width = 22
+    Height = 13
+    Caption = 'Cost'
+  end
+  object Label6: TLabel
+    Left = 424
+    Top = 427
+    Width = 23
+    Height = 13
+    Caption = 'Date'
+  end
+  object Label7: TLabel
+    Left = 424
+    Top = 400
+    Width = 60
+    Height = 13
+    Caption = 'Customer ID'
+  end
+  object Label8: TLabel
+    Left = 424
+    Top = 373
+    Width = 25
+    Height = 13
+    Caption = 'Code'
+  end
+  object Label5: TLabel
+    Left = 424
+    Top = 328
+    Width = 87
+    Height = 20
+    Caption = 'New Order'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = 20
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label9: TLabel
+    Left = 776
+    Top = 334
+    Width = 105
+    Height = 19
+    Caption = 'Delete Order'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label10: TLabel
+    Left = 776
+    Top = 373
+    Width = 25
+    Height = 13
+    Caption = 'Code'
+  end
+  object Label11: TLabel
+    Left = 755
+    Top = 400
+    Width = 46
+    Height = 13
+    Caption = 'Customer'
+  end
+  object StringGrid1: TStringGrid
+    Left = 8
+    Top = 110
+    Width = 328
+    Height = 193
+    FixedCols = 0
+    FixedRows = 0
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 0
+    OnSelectCell = StringGrid1SelectCell
+  end
+  object Button1: TButton
+    Left = 72
+    Top = 16
+    Width = 97
+    Height = 25
+    Caption = 'Customers'
+    TabOrder = 1
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Left = 72
+    Top = 47
+    Width = 97
+    Height = 25
+    Caption = 'Customers'#39' Info'
+    TabOrder = 2
+    OnClick = Button2Click
+  end
+  object Button3: TButton
+    Left = 261
+    Top = 16
+    Width = 75
+    Height = 25
+    Caption = 'Orders'
+    TabOrder = 3
+    OnClick = Button3Click
+  end
+  object Button4: TButton
+    Left = 261
+    Top = 47
+    Width = 75
+    Height = 25
+    Caption = 'Orders'#39' Info'
+    TabOrder = 4
+    OnClick = Button4Click
+  end
+  object StringGrid2: TStringGrid
+    Left = 8
+    Top = 328
+    Width = 352
+    Height = 144
+    FixedCols = 0
+    TabOrder = 5
+  end
+  object Edit1: TEdit
+    Left = 504
+    Top = 397
+    Width = 121
+    Height = 21
+    TabOrder = 6
+  end
+  object Edit3: TEdit
+    Left = 504
+    Top = 451
+    Width = 121
+    Height = 21
+    TabOrder = 7
+  end
+  object Edit4: TEdit
+    Left = 504
+    Top = 370
+    Width = 121
+    Height = 21
+    TabOrder = 8
+  end
+  object Edit5: TEdit
+    Left = 504
+    Top = 424
+    Width = 121
+    Height = 21
+    TabOrder = 9
+  end
+  object Button5: TButton
+    Left = 648
+    Top = 449
+    Width = 75
+    Height = 25
+    Caption = 'Insert'
+    TabOrder = 10
+    OnClick = Button5Click
+  end
+  object Edit2: TEdit
+    Left = 824
+    Top = 370
+    Width = 121
+    Height = 21
+    TabOrder = 11
+  end
+  object Button6: TButton
+    Left = 951
+    Top = 397
+    Width = 75
+    Height = 25
+    Caption = 'Delete'
+    Enabled = False
+    TabOrder = 12
+    OnClick = Button6Click
+  end
+  object Edit6: TEdit
+    Left = 824
+    Top = 399
+    Width = 121
+    Height = 21
+    TabOrder = 13
+  end
+  object Button7: TButton
+    Left = 951
+    Top = 368
+    Width = 75
+    Height = 25
+    Caption = 'Find'
+    TabOrder = 14
+    OnClick = Button7Click
+  end
+end
